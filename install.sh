@@ -13,7 +13,6 @@ else
     # update repo
     echo ""
     echo "${red}Updating OSX Bootstrap...${reset} (Step: 1 of 1)"
-    cd $source_dir
     git pull origin master
 fi
 
@@ -27,4 +26,5 @@ fi
 # echo 'LAST_EPOCH=$(_current_epoch)' > $source_dir/.osx-update
 
 # xcode
-source $source_dir/run.sh
+cd $source_dir
+source run.sh
