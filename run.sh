@@ -4,11 +4,11 @@
 declare source_dir=~/OSX-Bootstrap
 
 # sudo
-# source $source_dir/sudo.sh
+source $source_dir/sudo.sh
 
 # xcode
 source $source_dir/xcode.sh
-exit
+
 # homebrew
 source $source_dir/brew.sh
 
