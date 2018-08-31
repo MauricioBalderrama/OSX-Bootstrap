@@ -44,6 +44,7 @@ CASKS=(
 	spotify
 
 	# system hacks
+	appcleaner
 	flux
 	keepingyouawake
 	spotifree
