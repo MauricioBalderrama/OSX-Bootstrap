@@ -3,11 +3,11 @@
 # variables
 declare source_dir=~/.osx-bootstrap
 
-# sudo
-source $source_dir/sudo.sh
-
 # osx bootstrap
 source $source_dir/download.sh
+
+# sudo
+source $source_dir/sudo.sh
 
 # xcode
 source $source_dir/xcode.sh
@@ -40,9 +40,10 @@ echo ""
 if [[ $? != 0 ]]; then
     read -p "Do you want to reboot? [Yn]" -n 1 -r
     if [[ $REPLY =~ ^[Yy]$ ]]; then
-        echo ''
+        echo ""
         # sudo reboot
     fi
+    echo ""
 fi
 
 
