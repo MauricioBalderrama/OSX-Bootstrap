@@ -11,6 +11,7 @@ else
     # update
     echo ""
     echo "${red}Updating OSX Bootstrap...${reset} (Step: 1 of 1)"
+    cd $source_dir
     git pull origin master
 fi
 
