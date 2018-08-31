@@ -25,8 +25,8 @@ Some apps don't have a cask and so still need to be installed by hand.<br>
 **~~Display Maid ($)~~** http://www.funk-isoft.com/display-maid.html<br>
 **Sketch** https://www.sketchapp.com/<br>
 **TextFinderX** https://sw.ixoft.com/texfinderx/<br>
-**Filezilla** (Error on Cask) https://filezilla-project.org/
-**Transmit** https://panic.com//transmit/
+**Filezilla** (Error on Cask) https://filezilla-project.org/<br>
+**Transmit** https://panic.com//transmit/<br>
 
 ## Credits
 
