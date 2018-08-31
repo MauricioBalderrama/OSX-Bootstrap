@@ -1,17 +1,17 @@
 #!/bin/bash
 
+# sudo
+source $source_dir/sudo.sh
+
+# osx bootstrap
+source $source_dir/download.sh
+
 # libs
 . settings.sh
 . functions.sh
 
 # xcode
 source $source_dir/xcode.sh
-
-# sudo
-source $source_dir/sudo.sh
-
-# osx bootstrap
-source $source_dir/download.sh
 
 # homebrew
 source $source_dir/brew.sh
