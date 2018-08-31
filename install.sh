@@ -8,7 +8,7 @@ if [[ ! -d $source_dir ]]; then
     # autoupdate bootstrap file
     git clone https://github.com/DefinitionCloud/OSX-Bootstrap.git $source_dir
     # hide folder
-    chflags hidden $source_dir
+    # chflags hidden $source_dir
 else
     # update repo
     echo ""
