@@ -3,6 +3,8 @@
 # variables
 bash <(curl -L https://raw.github.com/DefinitionCloud/OSX-Bootstrap/master/download.sh)
 
+declare source_dir=~/OSX-Bootstrap
+
 # osx bootstrap
 # source download.sh
 
