@@ -19,6 +19,7 @@ CASKS=(
     iterm2
 
     # utilities
+    hyperdock
     filezilla
 	sourcetree
 	qbittorrent
