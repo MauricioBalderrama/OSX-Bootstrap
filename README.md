@@ -12,6 +12,7 @@ bash <(curl -L https://raw.github.com/DefinitionCloud/OSX-Bootstrap/master/insta
 Some apps don't have a cask and so still need to be installed by hand.
 
 **Adobe Creative Cloud**
+
     - *Photoshop*
     - *Illustrator*
     - *Acrobat Reader*
