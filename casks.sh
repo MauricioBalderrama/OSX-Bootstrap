@@ -6,36 +6,44 @@
 
 # variables
 CASKS=(
+
+	#browsers
 	google-chrome
 	firefox
 	torbrowser
 	homebrew/cask-versions/google-chrome-canary
 
+	# code related
 	visual-studio-code
 	sublime-text
     iterm2
 
-# 	filezilla
+    # utilities
+    filezilla
 	sourcetree
 	qbittorrent
     # dropbox
     # google-drive
 
+    # servers & virtualization
 	xampp
     # docker
     # vagrant
     # virtualbox
 
+    # chat & collaboration
 	whatsapp
 	teamviewer
 	skype
     slack
 
-	flux
-	keepingyouawake
-
+	# players
 	vlc
 	spotify
+
+    # system hacks
+	flux
+	keepingyouawake
 	spotifree
 )
 

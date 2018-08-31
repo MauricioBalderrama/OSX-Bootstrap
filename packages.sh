@@ -6,11 +6,11 @@
 
 # variables
 PACKAGES=(
-    ffmpeg
+    # ffmpeg
     git
     npm
-    vim
-    wget
+    # vim
+    # wget
 )
 
 # clean

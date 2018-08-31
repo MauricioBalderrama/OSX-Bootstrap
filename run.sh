@@ -1,13 +1,14 @@
 #!/bin/bash
 
-# variables
-declare source_dir=~/OSX-Bootstrap
-
-# sudo
-source $source_dir/sudo.sh
+# libs
+. settings.sh
+. functions.sh
 
 # xcode
 source $source_dir/xcode.sh
+
+# sudo
+source $source_dir/sudo.sh
 
 # homebrew
 source $source_dir/brew.sh
@@ -19,7 +20,7 @@ source $source_dir/packages.sh
 source $source_dir/casks.sh
 
 # fonts
-# source $source_dir/fonts.sh
+source $source_dir/fonts.sh
 
 # ssh
 source $source_dir/ssh.sh
@@ -27,21 +28,12 @@ source $source_dir/ssh.sh
 # system
 source $source_dir/system.sh
 
-# completed message
-echo ""
-echo "${cyan}OSX Bootstrap installation completed${reset}"
-echo ""
+# update
+source $source_dir/update.sh
 
-# reboot
-`sudo fdesetup isactive`
-if [[ $? != 0 ]]; then
-    read -p "Do you want to reboot? [Yn]" -n 1 -r
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
-        echo ""
-        # sudo reboot
-    fi
-    echo ""
-fi
+# completed
+source $source_dir/completed.sh
+
 
 
 

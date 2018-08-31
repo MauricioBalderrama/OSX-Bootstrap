@@ -16,12 +16,12 @@ echo "${bcyan}System"
 
 # setup workspace dir
 echo ""
-echo "${cyan}Creating folder structure...${reset} (Step: 1 of 3)"
+echo "${red}Creating folder structure...${reset} (Step: 1 of 3)"
 [[ ! -d $workspace_dir ]] && mkdir -p $workspace_dir
 
 # configuring osx
 echo ""
-echo "${cyan}Configuring OSX...${reset} (Step: 2 of 3)"
+echo "${red}Configuring OSX...${reset} (Step: 2 of 3)"
 
 
 #############################
@@ -82,8 +82,9 @@ sudo nvram SystemAudioVolume=" "
 # defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 # defaults write NSGlobalDomain AppleMetricUnits -bool true
 
-# Accelerate cursor (fast key repeat rate)
-defaults write NSGlobalDomain KeyRepeat -int 0
+# Accelerate cursor (fast key repeat rate, lower is faster) (requires logout)
+defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Disable auto-correct
 # defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
@@ -96,6 +97,8 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
+# Enable right-click for mouse (requires logout)
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
 
 #############################
 # Finder
@@ -153,11 +156,10 @@ defaults write com.apple.dock persistent-apps -array
 # Add applications to Dock
 clear
 APPS=(
-	Finder
 	Launchpad
 	Siri
 	System\ Preferences
-	App Store
+	App\ Store
 	Calendar
 	space
 	WhatsApp
@@ -173,8 +175,8 @@ APPS=(
 	space
 	Sublime\ Text
 	Visual\ Studio\ Code
-	iTerm2
-	Terminal
+	iTerm
+	Utilities/Terminal
 	space
 	FileZilla
 	SourceTree
@@ -182,7 +184,7 @@ APPS=(
 	# Dropbox
 	# Google\ Drive
 	space
-	manager-osx #xampp
+	XAMPP/xamppfiles/manager-osx #xampp
     # Docker
     # Vagrant
     # VirtualBox
@@ -202,7 +204,6 @@ do
     	defaults write com.apple.dock persistent-apps -array-add "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/$app.app/</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>"
     fi
 done
-killall Dock
 
 # Disable Dashboard
 defaults write com.apple.dashboard mcx-disabled -bool true
@@ -296,9 +297,3 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 for app in "cfprefsd" "Dock" "Finder" "Safari"  "SystemUIServer" "iTerm"; do
   killall "${app}" > /dev/null 2>&1 || true
 done
-
-# software update
-echo ""
-echo "${cyan}Running OSX Software Updates...${reset} (Step: 3 of 3)"
-sudo softwareupdate -i -a
-
