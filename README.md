@@ -11,7 +11,6 @@ bash <(curl -L https://raw.github.com/DefinitionCloud/OSX-Bootstrap/master/insta
 ## Manual Installation
 Some apps don't have a cask and so still need to be installed by hand.<br>
 <br>
-**HyperDock** https://bahoom.com/hyperdock/<br>
 **Adobe Creative Cloud** https://adobe.com/<br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Photoshop<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Illustrator<br>
@@ -25,8 +24,9 @@ Some apps don't have a cask and so still need to be installed by hand.<br>
 **VM Ware Fusion** https://www.vmware.com/products/fusion.html<br>
 **~~Display Maid ($)~~** http://www.funk-isoft.com/display-maid.html<br>
 **Sketch** https://www.sketchapp.com/<br>
-**Sketchup Free** https://www.sketchup.com/products/sketchup-free<br>
 **TextFinderX** https://sw.ixoft.com/texfinderx/<br>
+**Filezilla** (Error on Cask) https://filezilla-project.org/
+**Transmit** https://panic.com//transmit/
 
 ## Credits
 
