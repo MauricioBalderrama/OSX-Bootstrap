@@ -11,11 +11,11 @@ bash <(curl -L https://raw.github.com/DefinitionCloud/OSX-Bootstrap/master/insta
 ## Manual Installation
 Some apps don't have a cask and so still need to be installed by hand.
 
-**Adobe Creative Cloud**
-Photoshop
-Illustrator
-Acrobat Reader
-Acrobat
+**Adobe Creative Cloud**<br>
+*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Photoshop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Illustrator<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Acrobat Reader<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Acrobat*<br>
 
 **Microsoft Office**
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Word
