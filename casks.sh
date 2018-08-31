@@ -21,7 +21,7 @@ CASKS=(
 	# utilities
 	hyperdock
 	sketchup
-	filezilla # fails
+	# filezilla # fails
 	sourcetree
 	qbittorrent
 	# dropbox
