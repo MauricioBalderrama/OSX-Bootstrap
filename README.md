@@ -12,17 +12,17 @@ bash <(curl -L https://raw.github.com/DefinitionCloud/OSX-Bootstrap/master/insta
 Some apps don't have a cask and so still need to be installed by hand.<br>
 <br>
 **HyperDock** [https://bahoom.com/hyperdock/](https://bahoom.com/hyperdock/)<br>
-**Adobe Creative Cloud**<br>
+**Adobe Creative Cloud** [https://adobe.com/](https://adobe.com/)<br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Photoshop<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Illustrator<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Acrobat Reader<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Acrobat<br>*
-**Microsoft Office***<br>
+**Microsoft Office*** [https://www.office.com/](https://www.office.com/)<br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Word<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Excel<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Power Point<br>*
-**~~Parallels Desktop~~**<br>
-**VM Ware Fusion**<br>
+**~~Parallels Desktop~~** [https://www.parallels.com/](https://www.parallels.com/)<br>
+**VM Ware Fusion**<br> (https://www.vmware.com/products/fusion.html)
 **~~Display Maid ($)~~**<br>
 **Sketch**<br>
 **Sketchup Make**<br>
