@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # variables
-declare source_dir=~/.osx-bootstrap
+bash <(curl -L https://raw.github.com/DefinitionCloud/OSX-Bootstrap/master/download.sh)
 
 # osx bootstrap
-source download.sh
+# source download.sh
 
 # sudo
-source $source_dir/sudo.sh
+# source $source_dir/sudo.sh
 
 # xcode
 source $source_dir/xcode.sh
-
+exit
 # homebrew
 source $source_dir/brew.sh
 
