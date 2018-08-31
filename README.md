@@ -20,7 +20,7 @@ Some apps don't have a cask and so still need to be installed by hand.<br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Word<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Excel<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Power Point<br>*
-**~~Parallels Desktop~~** https://www.parallels.com/<br>
+**Parallels Desktop** https://www.parallels.com/<br>
 **VM Ware Fusion** https://www.vmware.com/products/fusion.html<br>
 **~~Display Maid ($)~~** http://www.funk-isoft.com/display-maid.html<br>
 **Sketch** https://www.sketchapp.com/<br>
