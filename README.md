@@ -20,12 +20,12 @@ Some apps don't have a cask and so still need to be installed by hand.
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Word<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Excel<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Power Point<br>*
-**Parallels Desktop**
-**VM Ware Fusion**
-**~~Display Maid ($)~~**
-**Sketch**
-**Sketchup Make**
-**TextFinderX**
+**Parallels Desktop**<br>
+**VM Ware Fusion**<br>
+**~~Display Maid ($)~~**<br>
+**Sketch**<br>
+**Sketchup Make**<br>
+**TextFinderX**<br>
 
 ## Credits
 
