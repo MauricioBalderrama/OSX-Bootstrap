@@ -5,12 +5,10 @@ declare source_dir=~/OSX-Bootstrap
 if [[ ! -d $source_dir ]]; then
     echo ""
     echo "${red}Downloading OSX Bootstrap...${reset} (Step: 1 of 1)"
-    # autoupdate bootstrap file
+    # clone
     git clone https://github.com/DefinitionCloud/OSX-Bootstrap.git $source_dir
-    # hide folder
-    # chflags hidden $source_dir
 else
-    # update repo
+    # update
     echo ""
     echo "${red}Updating OSX Bootstrap...${reset} (Step: 1 of 1)"
     git pull origin master
@@ -25,6 +23,6 @@ fi
 # # update timestamp
 # echo 'LAST_EPOCH=$(_current_epoch)' > $source_dir/.osx-update
 
-# xcode
+# run
 cd $source_dir
 source run.sh
