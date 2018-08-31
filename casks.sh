@@ -37,7 +37,6 @@ CASKS=(
 	whatsapp
 	teamviewer
 	skype
-	slack
 
 	# players
 	vlc
