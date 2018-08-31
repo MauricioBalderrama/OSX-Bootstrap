@@ -1,14 +1,13 @@
 #!/bin/bash
 
+# variables
+declare source_dir=~/.osx-bootstrap
+
 # sudo
 source $source_dir/sudo.sh
 
 # osx bootstrap
 source $source_dir/download.sh
-
-# libs
-. settings.sh
-. functions.sh
 
 # xcode
 source $source_dir/xcode.sh
