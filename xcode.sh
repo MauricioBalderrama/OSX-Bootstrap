@@ -9,7 +9,7 @@ clean
 
 # title
 echo ""
-echo "${bcyan}XCode LOCAL"
+echo "${bcyan}XCode"
 
 # is xcode is installed and updated?
 while true; do
