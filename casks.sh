@@ -16,37 +16,38 @@ CASKS=(
 	# code related
 	visual-studio-code
 	sublime-text
-    iterm2
+    	iterm2
 
-    # utilities
-    hyperdock
-    filezilla
+	# utilities
+	hyperdock
+	sketchup
+	filezilla # fails
 	sourcetree
 	qbittorrent
-    # dropbox
-    # google-drive
+	# dropbox
+	# google-drive
 
-    # servers & virtualization
+	# servers & virtualization
 	xampp
-    # docker
-    # vagrant
-    # virtualbox
+	# docker
+	# vagrant
+	# virtualbox
 
-    # chat & collaboration
+	# chat & collaboration
 	whatsapp
 	teamviewer
 	skype
-    slack
+	slack
 
 	# players
 	vlc
 	spotify
 
-    # system hacks
+	# system hacks
 	flux
 	keepingyouawake
 	spotifree
-)
+	)
 
 # clean
 clean
