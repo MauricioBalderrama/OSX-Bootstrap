@@ -4,7 +4,7 @@
 declare source_dir=~/.osx-bootstrap
 
 # osx bootstrap
-source $source_dir/download.sh
+source download.sh
 
 # sudo
 source $source_dir/sudo.sh
