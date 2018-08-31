@@ -9,7 +9,8 @@ Install XCode from the AppStore before running the script. Otherwise, Homebrew c
 bash <(curl -L https://raw.github.com/DefinitionCloud/OSX-Bootstrap/master/install.sh)
 ```
 ## Manual Installation
-Some apps don't have a cask and so still need to be installed by hand.
+Some apps don't have a cask and so still need to be installed by hand.<br>
+<br>
 **HyperDock** [https://bahoom.com/hyperdock/](https://bahoom.com/hyperdock/)<br>
 **Adobe Creative Cloud**<br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Photoshop<br>
