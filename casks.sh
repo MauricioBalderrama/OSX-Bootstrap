@@ -15,7 +15,7 @@ CASKS=(
 	sublime-text
     iterm2
 
-	filezilla
+# 	filezilla
 	sourcetree
 	qbittorrent
     # dropbox
