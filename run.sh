@@ -19,7 +19,7 @@ source $source_dir/packages.sh
 source $source_dir/casks.sh
 
 # fonts
-source $source_dir/fonts.sh
+# source $source_dir/fonts.sh
 
 # ssh
 source $source_dir/ssh.sh
