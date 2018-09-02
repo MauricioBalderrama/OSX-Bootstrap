@@ -93,12 +93,20 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-# Enable tap-to-click
+# Mouse: Enable tap-to-click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
-# Enable right-click for mouse (requires logout)
+# Mouse: Enable right-click for mouse (requires logout)
 defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
+
+# Trackpad: Enable tap-to-click
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+sudo defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+
 
 #############################
 # Finder
