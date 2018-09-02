@@ -69,6 +69,9 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
+# enable "quit" on Finder
+defaults write com.apple.finder QuitMenuItem -bool true
+
 #############################
 # Trackpad, mouse, keyboard, bluetooth accessories, and input
 #############################
