@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# clean screen
+# clean screen - http://www.kammerl.de/ascii/AsciiSignature.php - kban font
 clean() {
     clear
     echo "${cyan}"
