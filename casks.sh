@@ -11,42 +11,42 @@ CASKS=(
 	google-chrome
 	firefox
 	torbrowser
-	homebrew/cask-versions/google-chrome-canary
+	# homebrew/cask-versions/google-chrome-canary
 
 	# code related
 	visual-studio-code
-	sublime-text
     	iterm2
 
 	# utilities
 	hyperdock
 	sketchup
-	# filezilla # fails
 	sourcetree
 	qbittorrent
+	cyberduck
 	# dropbox
 	# google-drive
 
 	# servers & virtualization
-	xampp
+	# xampp
 	# docker
 	# vagrant
 	# virtualbox
 
 	# chat & collaboration
 	whatsapp
-	teamviewer
+	anydesk
 	skype
+	zoom
 
 	# players
 	vlc
-	spotify
+	# spotify
 
 	# system hacks
 	appcleaner
 	flux
 	keepingyouawake
-	spotifree
+	# spotifree
 	)
 
 # clean
