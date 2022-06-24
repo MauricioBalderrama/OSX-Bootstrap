@@ -7,11 +7,9 @@
 # variables
 CASKS=(
 
-	#browsers
+	# browsers
 	google-chrome
-	firefox
 	torbrowser
-	# homebrew/cask-versions/google-chrome-canary
 
 	# code related
 	visual-studio-code
@@ -23,8 +21,7 @@ CASKS=(
 	sourcetree
 	qbittorrent
 	cyberduck
-	# dropbox
-	# google-drive
+	google-drive
 
 	# servers & virtualization
 	# xampp
@@ -35,12 +32,11 @@ CASKS=(
 	# chat & collaboration
 	whatsapp
 	anydesk
-	skype
 	zoom
+	microsoft-teams
 
 	# players
-	vlc
-	# spotify
+	iina
 
 	# system hacks
 	appcleaner
